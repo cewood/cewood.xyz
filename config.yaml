@@ -1,0 +1,18 @@
+baseURL: https://cewood.xyz/
+languageCode: en-uk
+title: The ramblings of cewood
+theme: hemingway
+
+
+copyright: "&copy; <a href=\"https://github.com/cewood\">cewood</a>"
+
+params:
+  social:
+    - url: "https://twitter.com/cewood"
+      fa_icon: "fa-twitter"
+    - url: "https://github.com/cewood"
+      fa_icon: "fa-github"
+    - url: "https://www.linkedin.com/in/cameronewood"
+      fa_icon: "fa-linkedin"
+    - url: "https://stackoverflow.com/cv/cameronewood"
+      fa_icon: "fa-stack-overflow"
