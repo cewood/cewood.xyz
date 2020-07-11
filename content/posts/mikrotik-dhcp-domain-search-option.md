@@ -1,7 +1,7 @@
 ---
 title: "Mikrotik Dhcp Domain Search Option"
 date: 2018-08-02T20:24:01+02:00
-tag: [“mikrotik”, "routeros", "dd-wrt", "unifi"]
+tags: [“mikrotik”, "routeros", "dd-wrt", "unifi"]
 draft: false
 ---
 
