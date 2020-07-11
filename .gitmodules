@@ -1,3 +1,6 @@
 [submodule "themes/hemingway"]
 	path = themes/hemingway
 	url = https://github.com/tanksuzuki/hemingway.git
+[submodule "themes/charaka-hugo-theme"]
+	path = themes/charaka-hugo-theme
+	url = git@github.com:cewood/charaka-hugo-theme.git
