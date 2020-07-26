@@ -3,4 +3,4 @@
 	url = https://github.com/tanksuzuki/hemingway.git
 [submodule "themes/charaka-hugo-theme"]
 	path = themes/charaka-hugo-theme
-	url = git@github.com:cewood/charaka-hugo-theme.git
+	url = https://github.com/cewood/charaka-hugo-theme.git
