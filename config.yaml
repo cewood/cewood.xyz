@@ -1,32 +1,43 @@
 baseURL: https://cewood.xyz/
 languageCode: en-uk
 title: The ramblings of cewood
-theme: charaka-hugo-theme
-
-disqusShortname: ""
-
-copyright: "&copy; <a href=\"https://github.com/cewood\">cewood</a>"
+theme: hugo-xmin
 
 author:
-  name: blah
-  homepage: blah
+  name: "Cameron Wood"
+  homepage: "https://cewood.xyz"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about"
+      weight: 2
+    - name: "Links"
+      url: "/links"
+      weight: 3
+    - name: "Tags"
+      url: "/tags"
+      weight: 4
+    - name: "Subscribe"
+      url: "/index.xml"
+      weight: 5
+
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
 
 params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; cewood | [Twitter](https://twitter.com/cewood) | [GitHub](https://github.com/cewood) | [LinkedIn](https://www.linkedin.com/in/cameronewood) | [StackOverflow](https://stackoverflow.com/cv/cameronewood)"
   highlight:
     style: zenburn
-  social:
-    - url: "about"
-      fa_icon: "fas fa-info"
-    - url: "links"
-      fa_icon: "fas fa-link"
-    - url: "https://twitter.com/cewood"
-      fa_icon: "fab fa-twitter fa-lg"
-    - url: "https://github.com/cewood"
-      fa_icon: "fab fa-github fa-lg"
-    - url: "https://www.linkedin.com/in/cameronewood"
-      fa_icon: "fab fa-linkedin-in fa-lg"
-    - url: "https://stackoverflow.com/cv/cameronewood"
-      fa_icon: "fab fa-stack-overflow fa-lg"
 
 #pygmentsstyle: "zenburn"
 pygmentscodefences: true
