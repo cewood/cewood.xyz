@@ -41,7 +41,7 @@
   for = "/*"
 
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; script-src https://cewood.xyz"
+    Content-Security-Policy = "default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; style-src-elem 'self';"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
@@ -49,8 +49,7 @@
     X-XSS-Protection = "1; mode=block"
 
     # Multi-value headers are expressed with multi-line strings.
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
+    cache-control = '''
+    public,
+    max-age=0,
+    must-revalidate'''
