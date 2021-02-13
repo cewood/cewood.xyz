@@ -1,7 +1,7 @@
 ---
 title: "Oauth2_proxy with Nginx"
 date: 2018-09-08T14:39:01+02:00
-tags: [“bitly”, "oauth2", "proxy", "nginx", "google"]
+tags: ["bitly", "oauth2", "proxy", "nginx", "google"]
 draft: false
 ---
 

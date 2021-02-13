@@ -1,7 +1,7 @@
 ---
 title: "Mikrotik Hairpin NAT"
 date: 2018-08-19T19:03:09+02:00
-tags: [“mikrotik”, "routeros", "nat", "hairpin"]
+tags: ["mikrotik", "routeros", "nat", "hairpin"]
 draft: false
 ---
 

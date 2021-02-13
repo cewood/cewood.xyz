@@ -1,7 +1,7 @@
 ---
 title: "My i3 setup"
 date: 2020-03-23
-tags: [“i3”, "systemd", "minimalist", "kiss"]
+tags: ["i3", "systemd", "minimalist", "kiss"]
 ---
 
 I'm a long time user of i3 and have been meaning to document my setup for some time now, so here we are at last.

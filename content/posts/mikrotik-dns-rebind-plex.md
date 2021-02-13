@@ -1,7 +1,7 @@
 ---
 title: "DNS Rebinding for Plex with a MikroTik"
 date: 2018-08-15T20:24:01+02:00
-tags: [“mikrotik”, "routeros", "plex"]
+tags: ["mikrotik", "routeros", "plex"]
 draft: false
 ---
 

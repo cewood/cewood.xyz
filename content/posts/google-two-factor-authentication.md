@@ -1,7 +1,7 @@
 ---
 title: "Setting up two-factor auth for Google"
 date: 2018-03-10T15:00:39+01:00
-tags: [“google”, "two-factor-auth", "security"]
+tags: ["google", "two-factor-auth", "security"]
 draft: false
 ---
 
