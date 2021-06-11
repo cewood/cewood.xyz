@@ -6,4 +6,4 @@
 	url = https://github.com/cewood/charaka-hugo-theme.git
 [submodule "themes/hugo-xmin"]
 	path = themes/hugo-xmin
-	url = https://github.com/yihui/hugo-xmin.git
+	url = https://github.com/cewood/hugo-xmin.git
