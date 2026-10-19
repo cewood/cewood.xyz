@@ -1,5 +1,6 @@
 baseURL: https://cewood.xyz/
-languageCode: en-uk
+locale: "en-uk"
+defaultContentLanguage: "en-uk"
 title: The ramblings of cewood
 theme: hugo-xmin
 
@@ -23,22 +24,16 @@ menu:
     - name: "Places"
       url: "/places"
       weight: 3
-    - name: "Links"
-      url: "/links"
-      weight: 4
-    - name: "Tags"
-      url: "/tags"
-      weight: 5
     - name: "Subscribe"
       url: "/index.xml"
-      weight: 6
+      weight: 4
 
 permalinks:
   post: "/post/:year/:month/:day/:slug/"
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; cewood | [Twitter](https://twitter.com/cewood) | [GitHub](https://github.com/cewood) | [LinkedIn](https://www.linkedin.com/in/cameronewood) | [StackOverflow](https://stackoverflow.com/cv/cameronewood)"
+  description: "Just another website built with Hugo."
+  footer: "&copy; cewood | [Mastodon](https://mastodon.social/@cewood) | [Twitter](https://twitter.com/cewood) | [Bluesky](https://bsky.app/profile/cewood.bsky.social) | [GitHub](https://github.com/cewood) | [LinkedIn](https://www.linkedin.com/in/cameronewood)"
   highlight:
     style: zenburn
 
